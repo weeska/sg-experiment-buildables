@@ -1,0 +1,11 @@
+{
+  "name": "sg-buildables",
+  "packageManager": "yarn@3.3.1",
+  "scripts": {
+    "build": "yarn tsc",
+    "start": "yarn node dist/main.js"
+  },
+  "dependencies": {
+    "typescript": "^4.9.4"
+  }
+}
